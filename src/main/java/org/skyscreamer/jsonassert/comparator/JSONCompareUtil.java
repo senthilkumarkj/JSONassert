@@ -24,9 +24,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import org.skyscreamer.json.JSONArray;
+import org.skyscreamer.json.JSONException;
+import org.skyscreamer.json.JSONObject;
 
 /**
  * Utility class that contains Json manipulation methods.

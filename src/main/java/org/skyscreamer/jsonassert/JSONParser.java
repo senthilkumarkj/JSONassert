@@ -14,10 +14,10 @@
 
 package org.skyscreamer.jsonassert;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONString;
+import org.skyscreamer.json.JSONArray;
+import org.skyscreamer.json.JSONException;
+import org.skyscreamer.json.JSONObject;
+import org.skyscreamer.json.JSONString;
 
 /**
  * Simple JSON parsing utility.
@@ -31,7 +31,7 @@ public class JSONParser {
     private JSONParser() {}
 
     /**
-     * Takes a JSON string and returns either a {@link org.json.JSONObject} or {@link org.json.JSONArray},
+     * Takes a JSON string and returns either a {@link org.skyscreamer.json.JSONObject} or {@link org.skyscreamer.json.JSONArray},
      * depending on whether the string represents an object or an array.
      *
      * @param s Raw JSON string to be parsed

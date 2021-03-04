@@ -14,9 +14,9 @@
 
 package org.skyscreamer.jsonassert;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import org.skyscreamer.json.JSONArray;
+import org.skyscreamer.json.JSONException;
+import org.skyscreamer.json.JSONObject;
 import org.skyscreamer.jsonassert.comparator.JSONComparator;
 
 /**
@@ -35,7 +35,7 @@ import org.skyscreamer.jsonassert.comparator.JSONComparator;
  *
  * <code>{id:123,things['c','b','a'],anotherfield:'blah'}</code>
  *
- * <p><i>This library uses org.json.  It has fewer dependencies than other JSON libraries (like net.sf.json),
+ * <p><i>This library uses org.skyscreamer.json.  It has fewer dependencies than other JSON libraries (like net.sf.json),
  * making JSONassert more portable.</i></p>
  *
  * <p>There are two known issues when dealing with non-strict comparisons:</p>

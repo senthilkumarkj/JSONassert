@@ -16,8 +16,8 @@ package org.skyscreamer.jsonassert.comparator;
 
 import java.text.MessageFormat;
 
-import org.json.JSONArray;
-import org.json.JSONException;
+import org.skyscreamer.json.JSONArray;
+import org.skyscreamer.json.JSONException;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.skyscreamer.jsonassert.JSONCompareResult;
 

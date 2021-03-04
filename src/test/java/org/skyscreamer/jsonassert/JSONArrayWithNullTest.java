@@ -1,8 +1,8 @@
 package org.skyscreamer.jsonassert;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import org.skyscreamer.json.JSONArray;
+import org.skyscreamer.json.JSONException;
+import org.skyscreamer.json.JSONObject;
 import org.junit.Test;
 
 public class JSONArrayWithNullTest {

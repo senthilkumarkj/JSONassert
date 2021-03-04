@@ -24,7 +24,7 @@ import static org.skyscreamer.jsonassert.JSONCompareMode.NON_EXTENSIBLE;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
-import org.json.JSONException;
+import org.skyscreamer.json.JSONException;
 import org.junit.Test;
 import org.junit.internal.matchers.TypeSafeMatcher;
 

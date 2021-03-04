@@ -14,7 +14,7 @@
 
 package org.skyscreamer.jsonassert.comparator;
 
-import org.json.JSONException;
+import org.skyscreamer.json.JSONException;
 import org.skyscreamer.jsonassert.Customization;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.skyscreamer.jsonassert.JSONCompareResult;

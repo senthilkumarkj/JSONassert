@@ -14,7 +14,7 @@
 
 package org.skyscreamer.jsonassert;
 
-import org.json.JSONObject;
+import org.skyscreamer.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
 

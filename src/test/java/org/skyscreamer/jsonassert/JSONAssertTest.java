@@ -23,9 +23,9 @@ import static org.skyscreamer.jsonassert.JSONCompareMode.STRICT_ORDER;
 
 import java.util.Arrays;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import org.skyscreamer.json.JSONArray;
+import org.skyscreamer.json.JSONException;
+import org.skyscreamer.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
 import org.skyscreamer.jsonassert.comparator.CustomComparator;

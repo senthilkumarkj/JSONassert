@@ -14,10 +14,10 @@
 
 package org.skyscreamer.jsonassert;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONString;
+import org.skyscreamer.json.JSONArray;
+import org.skyscreamer.json.JSONException;
+import org.skyscreamer.json.JSONObject;
+import org.skyscreamer.json.JSONString;
 import org.skyscreamer.jsonassert.comparator.DefaultComparator;
 import org.skyscreamer.jsonassert.comparator.JSONComparator;
 
@@ -95,7 +95,7 @@ public final class JSONCompare {
 
     /**
      * Compares {@link JSONString} provided to the expected {@code JSONString}, checking that the
-     * {@link org.json.JSONString#toJSONString()} are equal.
+     * {@link JSONString#toJSONString()} are equal.
      *
      * @param expected Expected {@code JSONstring}
      * @param actual   {@code JSONstring} to compare

@@ -18,8 +18,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
+import org.skyscreamer.json.JSONArray;
+import org.skyscreamer.json.JSONObject;
 
 /**
  * Bean for holding results from JSONCompare.

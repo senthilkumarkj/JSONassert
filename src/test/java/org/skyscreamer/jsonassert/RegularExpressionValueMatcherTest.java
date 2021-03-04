@@ -16,7 +16,7 @@ package org.skyscreamer.jsonassert;
 
 import org.junit.Assert;
 
-import org.json.JSONException;
+import org.skyscreamer.json.JSONException;
 import org.junit.Test;
 import org.skyscreamer.jsonassert.Customization;
 import org.skyscreamer.jsonassert.JSONCompareMode;
