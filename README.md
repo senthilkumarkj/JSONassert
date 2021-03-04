@@ -107,6 +107,8 @@ library implemented for the Android system, released under the Apache 2.0 licens
 [com.vaadin.external.google:android-json](http://search.maven.org/#artifactdetails%7Ccom.vaadin.external.google%7Candroid-json%7C0.0.20131108.vaadin1%7Cjar)
 That jar does **not** include the org.skyscreamer.json.JSONString interface, so a new implementation of that interface is added to this source.
 
+The source of android-json's org.json package has been imported into the repo itself as org.skyscreaer.json package. The forked repo has no external dependencies except for junit. This is the only difference between the two repos.
+
 Resources
 ---------
 
